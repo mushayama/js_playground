@@ -47,7 +47,7 @@ export class Board {
     return false;
   }
 
-  checkDirection(
+  private checkDirection(
     row: number,
     column: number,
     character: string,
@@ -89,7 +89,7 @@ export class Board {
     return false;
   }
 
-  getRowAndColumn(box: string): [number, number] {
+  private getRowAndColumn(box: string): [number, number] {
     const [row, column] = box.split(" ").map((x) => Number(x));
     if (row > this.gridSize || row <= 0) {
       throw new Error(
