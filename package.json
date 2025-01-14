@@ -1,0 +1,20 @@
+{
+  "name": "js_playground",
+  "version": "1.0.0",
+  "description": "Repo for small js projects/examples",
+  "private": true,
+  "workspaces": [
+    "lld/*"
+  ],
+  "scripts": {
+    "build": "echo 'Run scripts for individual subprojects'",
+    "dev": "echo 'Run scripts for individual subprojects'",
+    "test": "echo 'Run scripts for individual subprojects'"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
