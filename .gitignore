@@ -1,0 +1,14 @@
+# Ignore node_modules at the root level, not in subprojects
+node_modules/
+
+# Ignore root-level build artifacts and logs
+dist/
+build/
+*.log
+*.tsbuildinfo
+
+# Ignore Jest coverage directory
+coverage/
+
+# Ignore npm lock file at root level, as subprojects will have their own
+package-lock.json
