@@ -1,0 +1,8 @@
+{
+  "extends": "../tsconfig.json", // Extend from root-level tsconfig
+  "compilerOptions": {
+    "outDir": "./dist", // Compiled JS files for this subproject
+    "rootDir": "./src" // Source code directory for this subproject
+  },
+  "include": ["src/**/*"] // Include files from the source directory
+}
